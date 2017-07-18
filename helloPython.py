@@ -88,6 +88,12 @@ There's a snake in my boot!'
 'There\'s a snake in my boot!'
 
 
+#Each character in a string is assigned an index. 
+
+c = "cats"[0]
+n = "Ryan"[3]
+#we create a new variable called c and set it to "c", the character at index zero of the string "cats".
+#in Python, we start counting the index from zero instead of one.
 
 
 
