@@ -96,5 +96,41 @@ n = "Ryan"[3]
 #in Python, we start counting the index from zero instead of one.
 
 
+#string methods, EG
+len()
+lower()
+upper()
+str()
+
+parrot = "Norwegian Blue"
+print len(parrot)
+
+parrot.lower() 
+#output "norwegian blue"
+
+#Dot Notation. Methods that use dot notation only work with strings.
+#len() and str() can work on other data types, as:
+
+lion = "roar"
+len(lion)
+lion.upper()
 
 
+#String Concatenation
+
+print "Life " + "of " + "Brian"
+#will print out the phrase Life of Brian.
+
+print "I have " + str(2) + " coconuts!"
+#will print I have 2 coconuts!
+
+name = "Mike"
+print "Hello %s" % (name)
+#The % operator after a string combines a string with variables. 
+#The % operator will replace a %s in the string with the string variable that comes after it.
+
+#it can be used as below, to capture input and add to string:
+name = raw_input("What is your name?")
+quest = raw_input("What is your quest")
+
+print "Ah, so your name is %s, and your quest is to %s" % (name, quest)
